@@ -8,7 +8,7 @@ function webspeed_testimonials_excerpt($atts) {
 	ob_start();
 
 	// define attributes and their defaults
-	extract(shortcode_atts(array('grid' => '3', 'gap' => '3', 'class' => 'no-class', 'number'  => '1', 'offset' => '0'), $atts));
+	extract(shortcode_atts(array('grid' => '3', 'gap' => '0', 'class' => 'no-class', 'number'  => '1', 'offset' => '0'), $atts));
 
 	require get_parent_theme_file_path('/inc/grid-gap.php');
 
