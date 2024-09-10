@@ -16,7 +16,7 @@ function webspeed_testimonials_excerpt($atts) {
 
 	$loop = new WP_Query(array(
 		'post_type' => 'testimonials',
-		'order' => 'ASC',
+		'order' => 'DESC',
 		'posts_per_page' => $number,
     'offset' => $offset,
 	)

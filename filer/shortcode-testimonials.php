@@ -16,8 +16,7 @@ function webspeed_testimonials($atts) {
 
 	$loop = new WP_Query(array(
 		'post_type' => 'testimonials',
-		'orderby' => 'menu_order',
-		'order' => 'ASC',
+		'order' => 'DESC',
 		'posts_per_page' => -1,
 	)
 	);
