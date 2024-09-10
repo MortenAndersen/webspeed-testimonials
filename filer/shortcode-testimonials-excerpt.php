@@ -36,7 +36,7 @@ if ( get_field('testimonials_oversigt', 'option') ) {
           echo '<div class="excerpt">';
             the_excerpt();
           echo '</div>';
-          echo '<a href="' . $side . '/#id-' . get_the_ID() . '">Læs mere</a>';
+          echo '<a href="' . $side . '/#id-' . get_the_ID() . '">Læs mere ...</a>';
         echo '</div>';
       endwhile;
       echo '</div>';
